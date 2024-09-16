@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "build",
+        "target": "ES2017",
+        "isolatedModules": false,
+        "noEmit": false,
+    },
+    "include": ["server",
+    "common/types/global.d.ts",
+    ]
+
+}
